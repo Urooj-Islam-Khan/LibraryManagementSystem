@@ -1,30 +1,31 @@
-📚 Library Management System
+# 📚 Library Management System
+---
 This is a simple Console-Based Library Management System developed in Python.
 It allows users to efficiently manage a collection of books with multiple features like viewing, adding, issuing, and returning books.
 
-✨ Features
+## ✨ Features
 View Books List
 Display all available books with their ID, Name, Author, and current Status (Available/Issued).
 
-Add a Book
+## Add a Book
 Add a new book by providing its ID, Name, and Author. Each newly added book is automatically marked as "Available".
 
-Remove a Book
+## Remove a Book
 Delete any book from the library collection using its unique Book ID.
 
-Search for a Book
+## Search for a Book
 Search for books by their name (case-insensitive search) and view matching results.
 
-Issue a Book
+## Issue a Book
 Issue a book by its ID. If the book is available, its status is updated to "Issued".
 
-Return a Book
+## Return a Book
 Return a previously issued book by updating its status back to "Available".
 
-Exit the System
+## Exit the System
 Option to gracefully exit the program.
 
-📋 How It Works
+# 📋 How It Works
 The system uses a dictionary to store book details.
 
 Book IDs are prefixed with bk (example: bk1, bk2, etc.).
@@ -33,7 +34,7 @@ Book status is automatically managed based on issuing or returning actions.
 
 Clear and simple text-based interface with prompts for user input.
 
-🚀 Getting Started
+## 🚀 Getting Started
 To run the program:
 
 Make sure Python is installed.
@@ -42,7 +43,7 @@ Copy the code into a .py file.
 
 Run the file using any Python IDE or the command line:
 
-📌 Notes
+## 📌 Notes
 Ensure you enter numeric IDs (only numbers) when adding, removing, issuing, or returning books.
 
 Book searches are case-insensitive, meaning "Harry Potter" and "harry potter" will be treated the same.
